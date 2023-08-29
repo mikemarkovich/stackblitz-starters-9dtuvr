@@ -5,6 +5,7 @@
   grid-template: 4.5rem / 1fr;
   gap: 2rem; /* token */
   background-color: var(--purple-70); /* token */
+  padding:0 1rem; /* token */
 }
 
 :host > * {

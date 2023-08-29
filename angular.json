@@ -43,7 +43,7 @@
             "scripts": [],
             "styles": [
               "src/default.css",
-              "src/tokens/upmc-primitives.css",
+              "src/tokens/upmc-primitives-hsl.css",
               "src/tokens/core.css",
               "src/tokens/semantic.css"
             ],
