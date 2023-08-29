@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  color: var(--ods-semantic-color-ui-text);
+  background-color: var(--ods-semantic-color-ui-background);
+}
+
+.temp {
+  display: grid;
+  place-items: center;
+  grid-auto-flow: column;
+  background-color: black;
+  padding: 0.5rem;
+}
+
+.temp a {
+  color: white;
+}

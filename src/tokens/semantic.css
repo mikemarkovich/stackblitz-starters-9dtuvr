@@ -1,0 +1,29 @@
+:root {
+  color-scheme: light;
+  /* semantic tokens */
+  --ods-semantic-color-ui-background: var(--ods-core-color-pure-white);
+  --ods-semantic-color-ui-text: var(--ods-core-color-neutral-900);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+
+    --ods-semantic-color-ui-background: var(--ods-core-color-neutral-900);
+    --ods-semantic-color-ui-text: var(--ods-core-color-neutral-100);
+  }
+}
+
+[color-scheme='light'] {
+  color-scheme: light;
+
+  --ods-semantic-color-ui-background: var(--ods-core-color-pure-white);
+  --ods-semantic-color-ui-text: var(--ods-core-color-neutral-900);
+}
+
+[color-scheme='dark'] {
+  color-scheme: dark;
+
+  --ods-semantic-color-ui-background: var(--ods-core-color-neutral-900);
+  --ods-semantic-color-ui-text: var(--ods-core-color-neutral-100);
+}
