@@ -2,10 +2,9 @@
   display: grid;
   grid-auto-flow: column;
   grid-auto-columns: max-content;
-  grid-template: 4.5rem / 1fr;
-  gap: 2rem; /* token */
-  background-color: var(--purple-70); /* token */
-  padding:0 1rem; /* token */
+  grid-template: 4.5rem / 1fr; /* not token - custom to layout */
+  gap: var(--ods-space-nav-items);
+  background-color: var(--ods-color-surface-brand);
 }
 
 :host > * {
@@ -13,17 +12,17 @@
   align-items: center;
 }
 
-p {
-  margin-top: initial;
-  margin-bottom: initial;
-  font-size: 2rem; /* token */
-  font-weight: 700; /* token */
-  text-transform: uppercase;
+/* will likely be deleted */
+svg {
+  fill:#fff;
+  font-size:2rem;
+  text-transform:uppercase;
+  height:100%;
+  width:100%;
 }
 
 a {
-  color: #fff; /* token */
-  text-decoration: none; /* global */
+  color: var(--ods-color-nav-items); 
 }
 
 :is(.inbox, .name) {

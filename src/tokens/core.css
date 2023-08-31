@@ -1,45 +1,74 @@
 :root {
   /* core tokens */
-  --ods-core-color-primary-100: hsl(var(--purple-05));
-  --ods-core-color-primary-200: hsl(var(--purple-10));
-  --ods-core-color-primary-300: hsl(var(--purple-15));
-  --ods-core-color-primary-400: hsl(var(--purple-20));
-  --ods-core-color-primary-500: hsl(var(--purple-30));
-  --ods-core-color-primary-600: hsl(var(--purple-40));
-  --ods-core-color-primary-700: hsl(var(--purple-50));
-  --ods-core-color-primary-800: hsl(var(--purple-60));
-  --ods-core-color-primary-900: hsl(var(--purple-70));
+  /* color */
+  --ods-core-color-primary-100: var(--purple-05);
+  --ods-core-color-primary-200: var(--purple-10);
+  --ods-core-color-primary-300: var(--purple-15);
+  --ods-core-color-primary-400: var(--purple-20);
+  --ods-core-color-primary-500: var(--purple-30);
+  --ods-core-color-primary-600: var(--purple-40);
+  --ods-core-color-primary-700: var(--purple-50);
+  --ods-core-color-primary-800: var(--purple-60);
+  --ods-core-color-primary-900: var(--purple-70);
 
-  --ods-core-color-neutral-100: hsl(var(--gray-05));
-  --ods-core-color-neutral-200: hsl(var(--gray-10));
-  --ods-core-color-neutral-300: hsl(var(--gray-15));
-  --ods-core-color-neutral-400: hsl(var(--gray-20));
-  --ods-core-color-neutral-500: hsl(var(--gray-30));
-  --ods-core-color-neutral-600: hsl(var(--gray-40));
-  --ods-core-color-neutral-700: hsl(var(--gray-50));
-  --ods-core-color-neutral-800: hsl(var(--gray-60));
-  --ods-core-color-neutral-900: hsl(var(--gray-70));
+  --ods-core-color-neutral-100: var(--gray-05);
+  --ods-core-color-neutral-200: var(--gray-10);
+  --ods-core-color-neutral-300: var(--gray-15);
+  --ods-core-color-neutral-400: var(--gray-20);
+  --ods-core-color-neutral-500: var(--gray-30);
+  --ods-core-color-neutral-600: var(--gray-40);
+  --ods-core-color-neutral-700: var(--gray-50);
+  --ods-core-color-neutral-800: var(--gray-60);
+  --ods-core-color-neutral-900: var(--gray-70);
 
-  --ods-core-color-accent-cool-100: hsl(var(--teal-05));
-  --ods-core-color-accent-cool-200: hsl(var(--teal-10));
-  --ods-core-color-accent-cool-300: hsl(var(--teal-15));
-  --ods-core-color-accent-cool-400: hsl(var(--teal-20));
-  --ods-core-color-accent-cool-500: hsl(var(--teal-30));
-  --ods-core-color-accent-cool-600: hsl(var(--teal-40));
-  --ods-core-color-accent-cool-700: hsl(var(--teal-50));
-  --ods-core-color-accent-cool-800: hsl(var(--teal-60));
-  --ods-core-color-accent-cool-900: hsl(var(--teal-70));
+  --ods-core-color-accent-cool-100: var(--teal-05);
+  --ods-core-color-accent-cool-200: var(--teal-10);
+  --ods-core-color-accent-cool-300: var(--teal-15);
+  --ods-core-color-accent-cool-400: var(--teal-20);
+  --ods-core-color-accent-cool-500: var(--teal-30);
+  --ods-core-color-accent-cool-600: var(--teal-40);
+  --ods-core-color-accent-cool-700: var(--teal-50);
+  --ods-core-color-accent-cool-800: var(--teal-60);
+  --ods-core-color-accent-cool-900: var(--teal-70);
 
-  --ods-core-color-accent-warm-100: hsl(var(--orange-05));
-  --ods-core-color-accent-warm-200: hsl(var(--orange-10));
-  --ods-core-color-accent-warm-300: hsl(var(--orange-15));
-  --ods-core-color-accent-warm-400: hsl(var(--orange-20));
-  --ods-core-color-accent-warm-500: hsl(var(--orange-30));
-  --ods-core-color-accent-warm-600: hsl(var(--orange-40));
-  --ods-core-color-accent-warm-700: hsl(var(--orange-50));
-  --ods-core-color-accent-warm-800: hsl(var(--orange-60));
-  --ods-core-color-accent-warm-900: hsl(var(--orange-70));
+  --ods-core-color-accent-warm-100: var(--orange-05);
+  --ods-core-color-accent-warm-200: var(--orange-10);
+  --ods-core-color-accent-warm-300: var(--orange-15);
+  --ods-core-color-accent-warm-400: var(--orange-20);
+  --ods-core-color-accent-warm-500: var(--orange-30);
+  --ods-core-color-accent-warm-600: var(--orange-40);
+  --ods-core-color-accent-warm-700: var(--orange-50);
+  --ods-core-color-accent-warm-800: var(--orange-60);
+  --ods-core-color-accent-warm-900: var(--orange-70);
 
-  --ods-core-color-pure-white: #fff;
-  --ods-core-color-pure-black: #000;
+  --ods-core-color-pure-white: 0 0% 100%;
+  --ods-core-color-pure-black: 0 0% 0%;
+
+  /* type */
+  /* could research fluid typography or adaptive typography here */
+  --ods-core-typography-size-xs:0.75rem;
+  --ods-core-typography-size-sm:0.875rem;
+  --ods-core-typography-size-def:1rem;
+  --ods-core-typography-size-md:1.25rem;
+  --ods-core-typography-size-lg:1.625rem;
+  --ods-core-typography-size-xl:2rem;
+  --ods-core-typography-size-xxl:2.625rem;
+  --ods-core-typography-font-sans-serif:'Arial', sans-serif;
+  --ods-core-typography-font-monospaced:'Courier New', monospace;
+  --ods-core-typography-weight-normal:400;
+  --ods-core-typography-weight-medium:500;
+  --ods-core-typography-weight-bold:700;
+
+  /* spacing */
+  /* no default is needed here */
+  --ods-core-space-xs:0.25rem;
+  --ods-core-space-sm:0.5rem;
+  --ods-core-space-md:1rem;
+  --ods-core-space-lg:1.5rem;
+  --ods-core-space-xl:2rem;
+  --ods-core-space-xxl:3rem;
+
+  /* utilities */
+  --ods-core-utility-zero:0;
+  --ods-core-utility-none:none;
 }

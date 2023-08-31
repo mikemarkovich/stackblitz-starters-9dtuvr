@@ -1,45 +1,44 @@
 :root {
   color-scheme: light;
   /* semantic tokens */
-  --ods-semantic-color-ui-background: var(--ods-core-color-pure-white);
-  --ods-semantic-color-ui-text: var(--ods-core-color-neutral-900);
+  --ods-color-surface-root: hsl(var(--ods-core-color-pure-white));
+  --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-900));
+  --ods-color-surface-brand: hsl(var(--ods-core-color-primary-800));
+  --ods-color-nav-items:hsl(var(--ods-core-color-pure-white));
 
-  --ods-semantic-color-surface-background-brand: var(
-    --ods-core-color-primary-800
-  );
+  /* not changing between modes */
+  --ods-type-font-root:var(--ods-core-typography-font-sans-serif);
+  --ods-type-font-input:var(--ods-core-typography-font-sans-serif);
+  --ods-type-font-number:var(--ods-core-typography-font-monospaced);
+
+  --ods-space-nav-items:var(--ods-core-space-xl);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
 
-    --ods-semantic-color-ui-background: var(--ods-core-color-neutral-900);
-    --ods-semantic-color-ui-text: var(--ods-core-color-neutral-100);
-
-    --ods-semantic-color-surface-background-brand: var(
-      --ods-core-color-neutral-800
-    );
+    --ods-color-surface-root: hsl(var(--ods-core-color-neutral-900));
+    --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-100)); /* may need hsl opacity here */
+    --ods-color-surface-brand: hsl(var(--ods-core-color-neutral-800));
+    --ods-color-nav-items:hsl(var(--ods-core-color-neutral-100) / 50%);
   }
 }
 
 [color-scheme='light'] {
   color-scheme: light;
 
-  --ods-semantic-color-ui-background: var(--ods-core-color-pure-white);
-  --ods-semantic-color-ui-text: var(--ods-core-color-neutral-900);
-
-  --ods-semantic-color-surface-background-brand: var(
-    --ods-core-color-primary-800
-  );
+  --ods-color-surface-root: hsl(var(--ods-core-color-pure-white));
+  --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-900));
+  --ods-color-surface-brand: hsl(var(--ods-core-color-primary-800));
+  --ods-color-nav-items:hsl(var(--ods-core-color-pure-white));
 }
 
 [color-scheme='dark'] {
   color-scheme: dark;
 
-  --ods-semantic-color-ui-background: var(--ods-core-color-neutral-900);
-  --ods-semantic-color-ui-text: var(--ods-core-color-neutral-100);
-
-  --ods-semantic-color-surface-background-brand: var(
-    --ods-core-color-neutral-800
-  );
+  --ods-color-surface-root: hsl(var(--ods-core-color-neutral-900));
+  --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-100)); /* may need hsl opacity here */
+  --ods-color-surface-brand: hsl(var(--ods-core-color-neutral-800));
+  --ods-color-nav-items:hsl(var(--ods-core-color-neutral-100) / 50%);
 }

@@ -1,7 +1,19 @@
+html {
+  font-family:var(--ods-type-font-root);
+  background-color: var(--ods-color-surface-root);
+}
+
+button {
+  font-family:var(--ods-type-font-input);
+}
+
 body {
   margin: 0;
-  color: var(--ods-semantic-color-ui-text);
-  background-color: var(--ods-semantic-color-ui-background);
+  color: var(--ods-color-surface-root-text);
+}
+
+a {
+  text-decoration:none;
 }
 
 .temp {
