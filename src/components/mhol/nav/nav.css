@@ -1,0 +1,22 @@
+:host {
+  display:grid;
+  grid-template:4.5rem / repeat(4, max-content);
+  gap:var(--ods-space-nav-items);
+  background-color:var(--ods-color-surface-brand-lightened);
+  position:relative;
+}
+
+:host::before {
+  content:'';
+  background-color:var(--ods-color-surface-brand);
+  position:absolute;
+  z-index:-1;
+  width:100%;
+  height:100%;
+}
+
+a {
+  display:grid;
+  align-items:center;
+  color:var(--ods-color-nav-items);
+}

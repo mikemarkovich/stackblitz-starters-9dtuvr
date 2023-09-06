@@ -4,6 +4,7 @@
   --ods-color-surface-root: hsl(var(--ods-core-color-pure-white));
   --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-900));
   --ods-color-surface-brand: hsl(var(--ods-core-color-primary-800));
+  --ods-color-surface-brand-lightened: hsl(var(--ods-core-color-pure-white) / 15%); /* can be color-mix at some point */
   --ods-color-nav-items:hsl(var(--ods-core-color-pure-white));
 
   /* not changing between modes */
@@ -21,7 +22,7 @@
     --ods-color-surface-root: hsl(var(--ods-core-color-neutral-900));
     --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-100)); /* may need hsl opacity here */
     --ods-color-surface-brand: hsl(var(--ods-core-color-neutral-800));
-    --ods-color-nav-items:hsl(var(--ods-core-color-neutral-100) / 50%);
+    --ods-color-nav-items:hsl(var(--ods-core-color-neutral-100), 87%);
   }
 }
 
@@ -40,5 +41,5 @@
   --ods-color-surface-root: hsl(var(--ods-core-color-neutral-900));
   --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-100)); /* may need hsl opacity here */
   --ods-color-surface-brand: hsl(var(--ods-core-color-neutral-800));
-  --ods-color-nav-items:hsl(var(--ods-core-color-neutral-100) / 50%);
+  --ods-color-nav-items:hsl(var(--ods-core-color-neutral-100), 87%);
 }
