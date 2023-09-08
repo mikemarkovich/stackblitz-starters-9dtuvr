@@ -5,12 +5,13 @@
   --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-900));
   --ods-color-surface-brand: hsl(var(--ods-core-color-primary-800));
   --ods-color-surface-brand-lightened: hsl(var(--ods-core-color-pure-white) / 15%); /* can be color-mix at some point */
-  --ods-color-nav-items:hsl(var(--ods-core-color-pure-white));
+  --ods-color-surface-brand-text:hsl(var(--ods-core-color-pure-white));
+  --ods-color-surface-brand-border:hsl(var(--ods-core-color-pure-white));
 
   /* not changing between modes */
-  --ods-type-font-root:var(--ods-core-typography-font-sans-serif);
-  --ods-type-font-input:var(--ods-core-typography-font-sans-serif);
-  --ods-type-font-number:var(--ods-core-typography-font-monospaced);
+  --ods-type-font-root:var(--ods-core-type-font-sans-serif);
+  --ods-type-font-input:var(--ods-core-type-font-sans-serif);
+  --ods-type-font-number:var(--ods-core-type-font-monospaced);
 
   --ods-space-nav-items:var(--ods-core-space-xl);
 }
@@ -20,9 +21,11 @@
     color-scheme: dark;
 
     --ods-color-surface-root: hsl(var(--ods-core-color-neutral-900));
-    --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-100)); /* may need hsl opacity here */
+    --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-100)); 
     --ods-color-surface-brand: hsl(var(--ods-core-color-neutral-800));
-    --ods-color-nav-items:hsl(var(--ods-core-color-neutral-100), 87%);
+    --ods-color-surface-brand-lightened: hsl(var(--ods-core-color-pure-white) / 15%);
+    --ods-color-surface-brand-text:hsl(var(--ods-core-color-pure-white) / 85%);
+    --ods-color-surface-brand-border:hsl(var(--ods-core-color-pure-white) / 85%);
   }
 }
 
@@ -32,14 +35,18 @@
   --ods-color-surface-root: hsl(var(--ods-core-color-pure-white));
   --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-900));
   --ods-color-surface-brand: hsl(var(--ods-core-color-primary-800));
-  --ods-color-nav-items:hsl(var(--ods-core-color-pure-white));
+  --ods-color-surface-brand-lightened: hsl(var(--ods-core-color-pure-white) / 15%);
+  --ods-color-surface-brand-text:hsl(var(--ods-core-color-pure-white));
+  --ods-color-surface-brand-border:hsl(var(--ods-core-color-pure-white));
 }
 
 [color-scheme='dark'] {
   color-scheme: dark;
 
   --ods-color-surface-root: hsl(var(--ods-core-color-neutral-900));
-  --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-100)); /* may need hsl opacity here */
+  --ods-color-surface-root-text: hsl(var(--ods-core-color-neutral-100));
   --ods-color-surface-brand: hsl(var(--ods-core-color-neutral-800));
-  --ods-color-nav-items:hsl(var(--ods-core-color-neutral-100), 87%);
+  --ods-color-surface-brand-lightened: hsl(var(--ods-core-color-pure-white) / 15%); 
+  --ods-color-surface-brand-text:hsl(var(--ods-core-color-pure-white) / 85%);
+  --ods-color-surface-brand-border:hsl(var(--ods-core-color-pure-white) / 85%);
 }

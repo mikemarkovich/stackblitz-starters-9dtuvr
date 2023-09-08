@@ -46,18 +46,18 @@
 
   /* type */
   /* could research fluid typography or adaptive typography here */
-  --ods-core-typography-size-xs:0.75rem;
-  --ods-core-typography-size-sm:0.875rem;
-  --ods-core-typography-size-def:1rem;
-  --ods-core-typography-size-md:1.25rem;
-  --ods-core-typography-size-lg:1.625rem;
-  --ods-core-typography-size-xl:2rem;
-  --ods-core-typography-size-xxl:2.625rem;
-  --ods-core-typography-font-sans-serif:'Arial', sans-serif;
-  --ods-core-typography-font-monospaced:'Courier New', monospace;
-  --ods-core-typography-weight-normal:400;
-  --ods-core-typography-weight-medium:500;
-  --ods-core-typography-weight-bold:700;
+  --ods-core-type-size-xs:0.75rem;
+  --ods-core-type-size-sm:0.875rem;
+  --ods-core-type-size-def:1rem;
+  --ods-core-type-size-md:1.25rem;
+  --ods-core-type-size-lg:1.625rem;
+  --ods-core-type-size-xl:2rem;
+  --ods-core-type-size-xxl:2.625rem;
+  --ods-core-type-font-sans-serif:'Arial', sans-serif;
+  --ods-core-type-font-monospaced:'Courier New', monospace;
+/*   --ods-core-type-weight-normal:400;
+  --ods-core-type-weight-medium:500;
+  --ods-core-type-weight-bold:700; */
 
   /* spacing */
   /* no default is needed here */

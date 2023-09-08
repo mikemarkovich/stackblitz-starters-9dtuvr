@@ -1,0 +1,16 @@
+:host {
+  background-color:var(--ods-color-surface-brand);
+}
+
+h1 {
+  margin-top:0;
+  margin-bottom:0;
+  padding:var(--ods-core-space-xxl) 0;
+  font-size:var(--ods-core-type-size-xxl);
+  color:var(--ods-color-surface-brand-text);
+}
+
+.coverage {
+  background-color:hsl(var(--ods-core-color-pure-white));
+  padding:1rem;
+}

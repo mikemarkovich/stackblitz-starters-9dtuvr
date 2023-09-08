@@ -22,7 +22,7 @@ svg {
 }
 
 a {
-  color: var(--ods-color-nav-items); 
+  color: var(--ods-color-surface-brand-text); 
 }
 
 :is(.inbox, .name) {

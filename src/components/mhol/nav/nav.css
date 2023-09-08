@@ -10,7 +10,7 @@
   content:'';
   background-color:var(--ods-color-surface-brand);
   position:absolute;
-  z-index:-1;
+  z-index:-1; /* token? */
   width:100%;
   height:100%;
 }
@@ -18,5 +18,10 @@
 a {
   display:grid;
   align-items:center;
-  color:var(--ods-color-nav-items);
+  color:var(--ods-color-surface-brand-text);
+}
+
+a.active {
+  background-image:linear-gradient(0deg, var(--ods-color-surface-brand-border) 5%, transparent 5%);
+  font-weight:700;
 }
