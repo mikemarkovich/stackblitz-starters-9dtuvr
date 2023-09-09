@@ -12,7 +12,64 @@ h1 {
 
 .coverage {
   background-color:hsl(var(--ods-core-color-pure-white));
-  padding:1rem;
+  padding:var(--ods-core-space-xl) 0;
   display:grid;
   grid-template-columns:2fr 1fr;
+}
+
+.coverage > div {
+  display:grid;
+  align-content:start;
+  gap:var(--ods-core-space-md);
+  padding:var(--ods-core-space-xl) var(--ods-core-space-xxl);
+}
+
+.coverage > div:last-of-type {
+  border-left:solid 1px hsl(var(--ods-core-color-neutral-400));
+}
+
+h2 {
+  margin-top:0;
+  margin-bottom:0;
+  font-size:var(--ods-core-type-size-sm);
+  color:hsl(var(--ods-core-color-primary-800));
+}
+
+h3 {
+  margin-top:0;
+  margin-bottom:0;
+  font-size:var(--ods-core-type-size-md);
+  color:hsl(var(--ods-core-color-primary-600));
+}
+
+dl {
+  margin-top:0;
+  display:grid;
+  gap:var(--ods-core-space-md);
+}
+
+dl dt {
+  margin-right:var(--ods-core-space-xs);
+}
+
+dl dt ``
+}
+
+dl dd {
+  margin-left:0;
+}
+
+dl > div {
+  display:grid;
+  grid-auto-flow:column;
+  grid-auto-columns:max-content;
+}
+
+address {
+  font-style:normal;
+}
+
+p {
+  margin-top:0;
+  margin-bottom:0;
 }
