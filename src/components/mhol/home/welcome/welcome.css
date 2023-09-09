@@ -52,9 +52,6 @@ dl dt {
   margin-right:var(--ods-core-space-xs);
 }
 
-dl dt ``
-}
-
 dl dd {
   margin-left:0;
 }
